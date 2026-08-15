@@ -1,0 +1,34 @@
+# SSH / private keys
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Ansible
+*.retry
+*.vault
+*.vault.yml
+*.secret
+
+# Environment / secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Terraform plans
+*.tfplan
+tfplan	
+
+# Terraform plan files
+terraform/tfplan
