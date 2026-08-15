@@ -1,0 +1,22 @@
+# Ansible
+*.retry
+.retry/
+*.log
+
+# Secrets and credentials
+*.vault
+*.vault.yml
+*.secret
+*.key
+*.pem
+
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
